@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+img {
+    border: 2px solid rgb(0, 166, 255);
+    border-radius: 8px;
+    width: 600px;
+    height: 600px;
+    position: relative; position: relative; top: -250px; position: relative; left: -100px;  position: relative; z-index: -1;  }
+
+
+
+
+#game{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+#character{
+        border: 2px solid rgb(0, 0, 0);;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    background-color: #e62e5f;
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+#block{
+    border: 2px solid rgb(100, 237, 247);;;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    animation: slide 1s linear infinite;
+    position: relative;
+}
+@keyframes slide{
+    0%{
+        top: -100px;
+    }
+    100%{
+        top: 500px;
+    }
+    
+}
