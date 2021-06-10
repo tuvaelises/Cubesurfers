@@ -40,5 +40,5 @@ setInterval(function(){
         alert("Game over! Score: " + counter);
         block.style.animation = "none";
     }
-    
+    ()=>window.parent.postMessage('nextLevel')
 })
